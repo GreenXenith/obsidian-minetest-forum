@@ -2,7 +2,7 @@
 @name         Obsidian Minetest Forum
 @namespace    https://github.com/GreenXenith
 @description  Dark Minetest Forum Userstyle
-@version      2.0.0
+@version      2.0.1
 @homepageURL  https://github.com/GreenXenith/obsidian-minetest-forum
 @supportURL   https://github.com/GreenXenith/obsidian-minetest-forum/issues
 @updateURL    https://raw.githubusercontent.com/GreenXenith/obsidian-minetest-forum/master/obsidian-minetest-forum.user.css
@@ -13,8 +13,8 @@
 @var color    bdcolor          "Border Color"       #353535
 @var color    color-detail     "Detail Color"       #284151
 @var color    color-text       "Text Color"         #dddddd
-@var color    color-link       "Link Color"         #69a9d7
-@var color    color-link-hover "Hovered Link Color" #afe8ff
+@var color    color-link       "Link Color"         #77c6e4
+@var color    color-link-hover "Hovered Link Color" #b6eeff
 @var color    color-info       "Info Color"         #5c9dbf
 ==/UserStyle== */
 
@@ -221,11 +221,11 @@ li.header dt {
 	margin-right: -500px;
 }
 
-li.header dl dd {
+li dd {
 	color: var(--color-info) !important;
 }
 
-dl, li {
+.inner dl, .inner li {
 	background-color: var(--bgcolor);
 	color: var(--color-info) !important;
 }
